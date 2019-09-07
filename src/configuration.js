@@ -224,7 +224,7 @@ export default class Configuration {
     }
 
     if (options.logger) {
-      options.logger.info(`Initializing Jaeger Tracer with ${reporter} and ${sampler}`);
+      options.logger.info(`Initializing Jaeger Tracer with ${reporter} and ${sampler} - Debug version`);
     }
 
     return new Tracer(config.serviceName, reporter, sampler, {

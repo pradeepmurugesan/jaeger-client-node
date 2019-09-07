@@ -59,6 +59,7 @@
     "underscore": "^1.8.3"
   },
   "scripts": {
+    "prepare": "make build-node",
     "check-license": "./scripts/check-license.sh",
     "check-ls": "npm ls --loglevel=http --parseable 1>/dev/null && echo '# npm is in a good state'",
     "cover": "babel-node ./node_modules/.bin/babel-istanbul cover ./node_modules/.bin/_mocha -- test/ test/samplers/ test/baggage/ test/throttler/ test/metrics/",
