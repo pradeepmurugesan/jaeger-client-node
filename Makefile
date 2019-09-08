@@ -13,7 +13,7 @@ else
 endif
 
 .PHONY: publish
-publish: build-node
+publish: build-without-install
 	npm version $(shell ./scripts/version_prompt.sh)
 	# Make a pull request for this version.
 	# Follow internal instructions to publish npm through uber account.

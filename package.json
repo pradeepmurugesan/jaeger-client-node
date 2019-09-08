@@ -1,5 +1,5 @@
 {
-  "name": "jaeger-client",
+  "name": "jaeger-client-debug",
   "version": "3.15.0",
   "description": "Jaeger binding for OpenTracing Node",
   "engines": {
